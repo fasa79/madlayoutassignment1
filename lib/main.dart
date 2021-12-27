@@ -49,9 +49,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-
   final List<Map<String, dynamic>> _items = [
     {
       'id': 0,
@@ -84,17 +81,6 @@ class _MyHomePageState extends State<MyHomePage> {
       'icon': Icons.tv_outlined,
     },
   ];
-
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
-  }
 
   void _tapContainer(int index){
     setState(() {
