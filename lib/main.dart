@@ -124,63 +124,8 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             );
           },
-            
-            // GestureDetector(
-            //   onTap: () => _tapContainer(1),
-            //   child: Container(
-            //     padding: const EdgeInsets.all(8),
-            //     child: Column(
-            //       children: <Widget>[
-            //         Text("John Room"),
-            //         Icon(Icons.lightbulb_outlined, size: 75.0),
-            //         Text(isOn[1] ? "On" : "Off"),
-            //       ],
-            //     ),
-            //     color: isOn[1] ? Colors.yellow : Colors.transparent,
-            //   ),
-            // ),
-            // GestureDetector(
-            //   onTap: () => _tapContainer(2),
-            //   child: Container(
-            //     padding: const EdgeInsets.all(8),
-            //     child: Column(
-            //       children: <Widget>[
-            //         Text("Salleh Room"),
-            //         Icon(Icons.lightbulb_outlined, size: 75.0),
-            //         Text(isOn[2] ? "On" : "Off"),
-            //       ],
-            //     ),
-            //     color: isOn[2] ? Colors.yellow : Colors.transparent,
-            //   ),
-            // ),
-            // GestureDetector(
-            //   onTap: () => _tapContainer(3),
-            //   child: Container(
-            //     padding: const EdgeInsets.all(8),
-            //     child: Column(
-            //       children: <Widget>[
-            //         Icon(Icons.lightbulb_outlined),
-            //         Text(isOn[3] ? "On" : "Off"),
-            //       ],
-            //     ),
-            //     color: isOn[3] ? Colors.yellow : Colors.transparent,
-            //   ),
-            // ),
-            // GestureDetector(
-            //   onTap: () => _tapContainer(4),
-            //   child: Container(
-            //     padding: const EdgeInsets.all(8),
-            //     child: Column(
-            //       children: <Widget>[
-            //         Icon(Icons.lightbulb_outlined),
-            //         Text(isOn[4] ? "On" : "Off"),
-            //       ],
-            //     ),
-            //     color: isOn[4] ? Colors.yellow : Colors.transparent,
-            //   ),
-            // ),
         )
-        ),
-      );
+      ),
+    );
   }
 }
