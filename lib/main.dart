@@ -55,33 +55,33 @@ class _MyHomePageState extends State<MyHomePage> {
   final List<Map<String, dynamic>> _items = [
     {
       'id': 0,
-      'name': 'Hall Aircond',
-      'isOn': false,
-      'icon': Icons.ac_unit,
-    },
-    {
-      'id': 1,
-      'name': 'Room Lamp',
+      'name': 'Lamp 1',
       'isOn': false,
       'icon': Icons.lightbulb_outlined,
     },
     {
+      'id': 1,
+      'name': 'Aircond',
+      'isOn': false,
+      'icon': Icons.ac_unit,
+    },
+    {
       'id': 2,
-      'name': 'Kitchen Window',
+      'name': 'Window',
       'isOn': false,
       'icon': Icons.window_outlined,
     },
     {
       'id': 3,
-      'name': 'Hall Lamp',
+      'name': 'Lamp 2',
       'isOn': false,
       'icon': Icons.lightbulb_outlined,
     },
     {
       'id': 4,
-      'name': 'Mai Aircond',
+      'name': 'TV',
       'isOn': false,
-      'icon': Icons.ac_unit,
+      'icon': Icons.tv_outlined,
     },
   ];
 
